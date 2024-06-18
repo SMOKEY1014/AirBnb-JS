@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node server.js",
-    "server": "json-server --watch db.json -p 4000 -s ./node_modules/json-server-auth",
-    "server1": "json-server --watch db.json -p 4000"
+    "start": "json-server --watch db.json -p 4000 -s ./node_modules/json-server-auth"
   },
   "keywords": [],
   "author": "",
