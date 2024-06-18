@@ -1,0 +1,51 @@
+.banner {
+    height: 50vh;
+    min-height: 600px;
+    position: relative;
+    background-image: url("https://wallpapercave.com/wp/wp7959645.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    /* background: url("https://wallpapercave.com/wp/wp10784396.jpg"); */
+}
+
+.banner_info {
+    background-color: black;
+    color: white;
+    padding: 25vh 50px 40px 50px;
+    width: 300px;
+    position: absolute;
+    top: 15%;
+}
+
+.banner_info>button {
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+
+.banner_info>h5 {
+    margin-top: 10px;
+}
+
+.banner_search {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.banner_searchButton {
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+    position: absolute !important;
+    /* top: 2% !important; */
+    width: 100vw !important;
+    /* right: 30%; */
+
+}

@@ -1,0 +1,49 @@
+# GET ALL USERS
+GET http://localhost:4000/users
+###
+
+# GET A SINGLE USER
+GET http://localhost:4000/users/1
+
+###
+
+# GET ALL BOKKINGS
+http://localhost:4000/bookings
+###
+
+# GET ALL BO0KINGS FOR A USER
+http://localhost:4000/users/1/bookings
+###
+
+
+http://localhost:4000/listings
+###
+
+# SIGN-UP
+POST http://localhost:4000/register
+content-type: application/json 
+{
+    "email": "user@example.com", 
+    "password":"secret"
+}
+###
+
+# SIGN-IN
+POST http://localhost:4000/login
+content-type: application/json 
+{
+    "email": "user@example.com", 
+    "password":"secret"
+}
+###
+
+# POST http://localhost:4000/posts
+# content-type: application/json
+
+# {
+
+    
+#     "title": "AirBnB clone",
+#     "author": "SMOKEY"
+
+# }

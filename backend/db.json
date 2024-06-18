@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Ntuthuko Dhlamini",
+      "email": "smokeydhlamini@gmail.com",
+      "phone": "076-320-1262",
+      "password":"Pass@123"
+    },
+    {
+      "id": "2",
+      "name": "Phakamani Mkhwanazi",
+      "email": "pkmkwanazi@gmail.com",
+      "phone": "072-320-1243"
+    },
+    {
+      "id": "3",
+      "name": "Smokey Dhlamini",
+      "email": "mini@gmail.com",
+      "password": "0123456789"
+    },
+    {
+      "id": "4",
+      "name": "Phakama Mkhwanazi",
+      "email": "pkmkwanazi@gmail.com",
+      "password": "Pass@12345"
+    }
+  ],
+  "bookings": [
+    {
+      "listingId": "1",
+      "startDate": "2024-03-02",
+      "endDate": "2024-03-03",
+      "userId": 1
+    }
+  ],
+  "listings": [
+    {
+      "id": 1,
+      "bath_num": 4,
+      "img": "https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w720",
+      "title": "Online Experiences",
+      "description": "Unique activities we can do together, led by a world of hosts",
+      "zip": 23456,
+      "address": "mp16 street",
+      "city": "Newcastle",
+      "price": " $150/night",
+      "sq_": 4.2,
+      "email": "testing@gmail.com",
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "bath_num": 4,
+      "img": "https://a0.muscache.com/im/pictures/d0ca15e5-87bc-4912-bbc0-6c564e42afc7.jpg?im_w=480",
+      "title": "Online Experiences",
+      "description": "Superhosts with stunning view of the beachside in Sunny Bournemouth",
+      "price": "$130/night",
+      "zip": 25656,
+      "address": "mp17 street",
+      "city": "Newcastle",
+      "sq_": 4.2,
+      "email": "tester@gmail.com",
+      "userId": 2
+    }
+  ]
+}
