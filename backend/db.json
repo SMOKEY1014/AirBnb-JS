@@ -62,6 +62,20 @@
       "sq_": 4.2,
       "email": "tester@gmail.com",
       "userId": 2
+    },
+    {
+      "id": 1,
+      "bath_num": 4,
+      "img": "https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w720",
+      "title": "Online Experiences",
+      "description": "Unique activities we can do together, led by a world of hosts",
+      "zip": 23456,
+      "address": "mp16 street",
+      "city": "Newcastle",
+      "price": " $150/night",
+      "sq_": 4.2,
+      "email": "testing@gmail.com",
+      "userId": 2
     }
   ]
 }
